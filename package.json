@@ -1,0 +1,30 @@
+{
+    "name": "spotify-clone",
+    "version": "1.0.0",
+    "description": "Seja bem vindo(a) à sexta Semana Javascript Expert. Este é o código inicial para iniciar nossa jornada.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon server/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mario-pitta/spotify-clone.git"
+    },
+    "engines": {
+        "node": "16"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mario-pitta/spotify-clone/issues"
+    },
+    "homepage": "https://github.com/mario-pitta/spotify-clone#readme",
+    "dependencies": {
+        "nodemon": "^2.0.15",
+        "pino": "^7.8.0",
+        "pino-pretty": "^7.5.3"
+    }
+}
